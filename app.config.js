@@ -22,6 +22,7 @@ export default {
       supportsTablet: true,
     },
     android: {
+      package: "my.app.peaks",
       adaptiveIcon: {
         foregroundImage: "./assets/images/adaptive-icon.png",
         backgroundColor: "#ffffff",
@@ -37,6 +38,7 @@ export default {
       firebase_storage_bucket: process.env.FIREBASE_STORAGE_BUCKET,
       firebase_messaging_sender: process.env.FIREBASE_MESSAGING_SENDER,
       firebase_app_id: process.env.FIREBASE_APP_ID,
+      facebook_app_id: process.env.FACEBOOK_APP_ID,
     },
   },
 };

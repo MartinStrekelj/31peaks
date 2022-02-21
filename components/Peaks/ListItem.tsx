@@ -5,16 +5,21 @@ import { IPeak } from "../../backend/PeaksApi";
 
 interface ListItemProps {
   peak: IPeak;
+  onPress: (peak: IPeak) => void;
+  isSummited: boolean;
 }
 
-export const ListItem = ({ peak }: ListItemProps) => {
+export const ListItem = ({ peak, onPress, isSummited }: ListItemProps) => {
   return (
     <List.Item
+      onPress={() => onPress(peak)}
       style={{
         margin: 10,
         backgroundColor: Colors.white,
         width: "95%",
         borderRadius: 20,
+        borderColor: Colors.black,
+        borderWidth: 2,
       }}
       title={() => (
         <Text
@@ -27,10 +32,10 @@ export const ListItem = ({ peak }: ListItemProps) => {
       left={(props) => (
         <Avatar.Icon
           {...props}
-          icon='mountain'
+          icon={`${isSummited ? "check" : "mountain"}`}
           size={64}
           color={Colors.grey100}
-          style={{ backgroundColor: Colors.blue400 }}
+          style={{ backgroundColor: isSummited ? Colors.green400 : Colors.blue400 }}
         />
       )}
     />

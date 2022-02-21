@@ -1,14 +1,15 @@
 import { useEffect, useState } from "react";
 import { StyleSheet } from "react-native";
-import { ActivityIndicator, Searchbar } from "react-native-paper";
+import { ActivityIndicator, Colors, Searchbar } from "react-native-paper";
 import { IPeak } from "../backend/PeaksApi";
+import { Filter } from "../components/Filter";
 
 import { ListPeaks } from "../components/Peaks/List";
 import { Text, View } from "../components/Themed";
 import { useAppContext } from "../lib/AppContext";
 
 export default function TabTwoScreen() {
-  const { peaks } = useAppContext();
+  const { peaks, summits } = useAppContext();
   const [query, setQuery] = useState<string>("");
   const [filteredPeaks, setFilteredPeaks] = useState<IPeak[]>([]);
 
@@ -20,13 +21,11 @@ export default function TabTwoScreen() {
       return;
     }
 
-    setFilteredPeaks(
-      peaks.filter((peak: IPeak) => peak.name.includes(query.toUpperCase()))
-    );
+    setFilteredPeaks(peaks.filter((peak: IPeak) => peak.name.includes(query.toUpperCase())));
   }, [query]);
 
   if (peaks.length <= 0) {
-    return <ActivityIndicator />;
+    return <ActivityIndicator color={Colors.blue400} />;
   }
 
   return (
@@ -39,7 +38,8 @@ export default function TabTwoScreen() {
         value={query}
         autoComplete={false}
       />
-      <ListPeaks peaks={filteredPeaks} />
+      <ListPeaks peaks={filteredPeaks} summitIds={summits} />
+      <Filter />
     </View>
   );
 }
@@ -53,6 +53,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 40,
     fontWeight: "bold",
+    paddingHorizontal: 20,
   },
   separator: {
     marginVertical: 30,
