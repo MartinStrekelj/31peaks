@@ -1,0 +1,172 @@
+{
+  "peaks": [
+    {
+      "name": "BOČ",
+      "location": "Karavanke",
+      "zahtevnost": "Lahka planinska pot",
+      "height": 978
+    },
+    {
+      "name": "ČRNA PRST",
+      "location": "Julijske Alpe",
+      "zahtevnost": "Lahka planinska pot",
+      "height": 1844
+    },
+    {
+      "name": "ČRNI VRH",
+      "location": "Pohorje",
+      "zahtevnost": "Lahka planinska pot",
+      "height": 1534
+    },
+    {
+      "name": "DONAČKA GORA",
+      "location": "Karavanke",
+      "zahtevnost": "Lahka planinska pot",
+      "height": 884
+    },
+    {
+      "name": "GOTENIŠKI SNEŽNIK",
+      "location": "Kočevsko",
+      "zahtevnost": "Lahka planinska pot",
+      "height": 1289
+    },
+    {
+      "name": "KANIN",
+      "location": "Julijske Alpe",
+      "zahtevnost": "Lahka planinska pot",
+      "height": 2587
+    },
+    {
+      "name": "KRIM",
+      "location": "Ljubljana z okolico",
+      "zahtevnost": "Lahka planinska pot",
+      "height": 1107
+    },
+    {
+      "name": "KRN",
+      "location": "Julijske Alpe",
+      "zahtevnost": "Lahka planinska pot",
+      "height": 2244
+    },
+    {
+      "name": "KRVAVEC IN VELIKI ZVOH",
+      "location": "Kamniško-Savinjske Alpe",
+      "zahtevnost": "Lahka planinska pot",
+      "height": 1971
+    },
+    {
+      "name": "KUM",
+      "location": "Posavsko hribovje",
+      "zahtevnost": "Lahka planinska pot",
+      "height": 1220
+    },
+    {
+      "name": "LISCA",
+      "location": "Posavsko hribovje",
+      "zahtevnost": "Lahka planinska pot",
+      "height": 948
+    },
+    {
+      "name": "MIRNA GORA",
+      "location": "Bela krajina",
+      "zahtevnost": "Lahka planinska pot",
+      "height": 1047
+    },
+    {
+      "name": "MRZLICA",
+      "location": "Posavsko hribovje",
+      "zahtevnost": "Lahka planinska pot",
+      "height": 1122
+    },
+    {
+      "name": "NANOS",
+      "location": "Goriško, Notranjsko in Snežniško hribovje",
+      "zahtevnost": "Lahka planinska pot",
+      "height": 1313
+    },
+    {
+      "name": "PECA",
+      "location": "Karavanke",
+      "zahtevnost": "Lahka planinska pot",
+      "height": 2125
+    },
+    {
+      "name": "RADUHA",
+      "location": "Kamniško-Savinjske Alpe",
+      "zahtevnost": "Lahka planinska pot",
+      "height": 2062
+    },
+    {
+      "name": "POREZEN",
+      "location": "Škofjeloško in Cerkljansko hribovje",
+      "zahtevnost": "Lahka planinska pot",
+      "height": 1630
+    },
+    {
+      "name": "RATITOVEC",
+      "location": "Julijske Alpe",
+      "zahtevnost": "Lahka planinska pot",
+      "height": 1678
+    },
+    {
+      "name": "ROMBON",
+      "location": "Julijske Alpe",
+      "zahtevnost": "Lahka planinska pot",
+      "height": 2208
+    },
+    {
+      "name": "SABOTIN",
+      "location": "Goriška brda",
+      "zahtevnost": "Lahka planinska pot",
+      "height": 609
+    },
+    {
+      "name": "SLAVNIK",
+      "location": "Slavniško pogorje",
+      "zahtevnost": "Lahka planinska pot",
+      "height": 1028
+    },
+    {
+      "name": "SLIVNICA",
+      "location": "Notranjsko hribovje",
+      "zahtevnost": "Lahka planinska pot",
+      "height": 1114
+    },
+    {
+      "name": "STOL",
+      "location": "Karavanke",
+      "zahtevnost": "Lahka planinska pot",
+      "height": 2236
+    },
+    {
+      "name": "TRDINOV VRH",
+      "location": "Gorjanci",
+      "zahtevnost": "Lahka planinska pot",
+      "height": 1178
+    },
+    {
+      "name": "TRSTELJ IN CERJE",
+      "location": "Kras",
+      "zahtevnost": "Lahka planinska pot",
+      "height": 643
+    },
+    {
+      "name": "URŠLJA GORA",
+      "location": "Karavanke",
+      "zahtevnost": "Lahka planinska pot",
+      "height": 1699
+    },
+    {
+      "name": "VELIKA PLANINA",
+      "location": "Kamniško-Savinjske Alpe",
+      "zahtevnost": "Lahka planinska pot",
+      "height": 1666
+    },
+    {
+      "name": "VELIKI SNEŽNIK",
+      "location": "Snežnik",
+      "zahtevnost": "Lahka planinska pot",
+      "height": 1796
+    }
+  ]
+}
